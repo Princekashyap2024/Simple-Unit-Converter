@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .converter-container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    select, input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .result {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="converter-container">
+    <h1>Unit Converter</h1>
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="length">Length</option>
+      <option value="temperature">Temperature</option>
+      <option value="weight">Weight</option>
+    </select>
+
+    <label for="from-unit">From:</label>
+    <select id="from-unit"></select>
+
+    <label for="to-unit">To:</label>
+    <select id="to-unit"></select>
+
+    <label for="input-value">Value:</label>
+    <input type="number" id="input-value" placeholder="Enter value">
+
+    <div class="result" id="result">Result: </div>
+  </div>
+
+  <script src="converter.js"></script>
+</body>
+</html>
