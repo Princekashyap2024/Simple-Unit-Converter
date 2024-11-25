@@ -17,10 +17,10 @@
 ## 📸 **Screenshots**
 
 ### Main Interface:
-![Main Interface Screenshot](https://via.placeholder.com/800x400.png?text=Add+Screenshot+Here)
+![Main Interface Screenshot](https://raw.githubusercontent.com/Princekashyap2024/Simple-Unit-Converter/refs/heads/main/Main%20Interface%20Screenshot.png)
 
 ### Real-Time Conversion:
-![Conversion Screenshot](https://via.placeholder.com/800x400.png?text=Add+Conversion+Screenshot+Here)
+![Conversion Screenshot](https://raw.githubusercontent.com/Princekashyap2024/Simple-Unit-Converter/refs/heads/main/Conversion%20Screenshot.png)
 
 ---
 
